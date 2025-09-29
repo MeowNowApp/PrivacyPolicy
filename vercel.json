@@ -3,18 +3,26 @@
   "public": true,
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/",
-      "destination": "/privacy/",
-      "host": "privacy.meownow.app",
-      "permanent": false
+      "source": "/:path*",
+      "destination": "/privacy/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "privacy.meownow.app"
+        }
+      ]
     },
     {
-      "source": "/",
-      "destination": "/terms/",
-      "host": "terms.meownow.app",
-      "permanent": false
+      "source": "/:path*",
+      "destination": "/terms/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "terms.meownow.app"
+        }
+      ]
     }
   ]
 }
