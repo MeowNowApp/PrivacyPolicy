@@ -5,8 +5,8 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "/privacy/:path*",
+      "source": "/",
+      "destination": "/privacy/index.html",
       "has": [
         {
           "type": "host",
@@ -15,8 +15,8 @@
       ]
     },
     {
-      "source": "/:path*",
-      "destination": "/terms/:path*",
+      "source": "/",
+      "destination": "/terms/index.html",
       "has": [
         {
           "type": "host",
