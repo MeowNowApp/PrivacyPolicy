@@ -2,5 +2,19 @@
   "version": 2,
   "public": true,
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/privacy/",
+      "host": "privacy.meownow.app",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "destination": "/terms/",
+      "host": "terms.meownow.app",
+      "permanent": false
+    }
+  ]
 }
