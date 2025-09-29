@@ -3,10 +3,10 @@
   "public": true,
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "/privacy/index.html",
+      "destination": "/privacy",
       "has": [
         {
           "type": "host",
@@ -16,7 +16,7 @@
     },
     {
       "source": "/",
-      "destination": "/terms/index.html",
+      "destination": "/terms",
       "has": [
         {
           "type": "host",
